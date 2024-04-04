@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_skills__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of skills</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Java</fullName>
+                <default>false</default>
+                <label>Java</label>
+            </value>
+            <value>
+                <fullName>C#</fullName>
+                <default>false</default>
+                <label>C#</label>
+            </value>
+            <value>
+                <fullName>Ruby</fullName>
+                <default>false</default>
+                <label>Ruby</label>
+            </value>
+            <value>
+                <fullName>Perl</fullName>
+                <default>false</default>
+                <label>Perl</label>
+            </value>
+            <value>
+                <fullName>PHP</fullName>
+                <default>false</default>
+                <label>PHP</label>
+            </value>
+            <value>
+                <fullName>Apex Code</fullName>
+                <default>false</default>
+                <label>Apex Code</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Motivation</fullName>
+                <default>false</default>
+                <label>Motivation</label>
+            </value>
+            <value>
+                <fullName>Approachability</fullName>
+                <default>false</default>
+                <label>Approachability</label>
+            </value>
+            <value>
+                <fullName>Good teamwork skills</fullName>
+                <default>false</default>
+                <label>Good teamwork skills</label>
+            </value>
+            <value>
+                <fullName>Adaptability</fullName>
+                <default>false</default>
+                <label>Adaptability</label>
+            </value>
+            <value>
+                <fullName>Commercial awareness</fullName>
+                <default>false</default>
+                <label>Commercial awareness</label>
+            </value>
+            <value>
+                <fullName>HTML, CSS</fullName>
+                <default>false</default>
+                <label>HTML, CSS</label>
+            </value>
+            <value>
+                <fullName>JavaScript</fullName>
+                <default>false</default>
+                <label>JavaScript</label>
+            </value>
+            <value>
+                <fullName>Photoshop</fullName>
+                <default>false</default>
+                <label>Photoshop</label>
+            </value>
+            <value>
+                <fullName>Illustrator</fullName>
+                <default>false</default>
+                <label>Illustrator</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Approachability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Good teamwork skills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Adaptability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Commercial awareness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>Java</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>C#</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>Ruby</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>Perl</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>PHP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>Apex Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Motivation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Designing</controllingFieldValue>
+            <valueName>HTML, CSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Designing</controllingFieldValue>
+            <valueName>JavaScript</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Designing</controllingFieldValue>
+            <valueName>Photoshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Designing</controllingFieldValue>
+            <valueName>Illustrator</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
